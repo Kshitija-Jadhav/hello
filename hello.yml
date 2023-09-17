@@ -16,5 +16,5 @@
 
     - name: Copy files to Apache document root
       copy:
-        src: "*"
+        src: "."
         dest: "/var/www/html/"
